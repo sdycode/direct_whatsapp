@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.example.direct_whatsapp">
+    <application>
+        <!-- Declares a provider which allows us to store files to share in
+             '.../caches/share_plus' and grant the receiving action access -->
+<!--        <provider-->
+<!--            android:name="com.example.direct_whatsapp.ShareFileProvider"-->
+<!--            android:authorities="com.example.direct_whatsapp.flutter.share_provider"-->
+<!--            android:exported="false"-->
+<!--            android:grantUriPermissions="true">-->
+<!--            <meta-data-->
+<!--                android:name="android.support.FILE_PROVIDER_PATHS"-->
+<!--                android:resource="@xml/flutter_share_file_paths"/>-->
+<!--        </provider>-->
+        <!-- This manifest declared broadcast receiver allows us to use an explicit
+             Intent when creating a PendingItent to be informed of the user's choice -->
+    </application>
+</manifest>
